@@ -1,6 +1,6 @@
-#Unit_01 assignment 1: Find active repository#
+**#Unit_01 assignment 1: Find active repository#
 Name of repository used: Withfig/autocomplete
-Link to repository: https://github.com/withfig/autocomplete
+Link to repository: https://github.com/withfig/autocomplete**
 
 #Evidence that repository is active:#
 1) 10 open pull requests, with 417 closed. The latest pull request happened on the 30th of September. Pull request titled: 'feat(npm): suggest global deps if global flag is specified.'
@@ -22,4 +22,4 @@ Link to repository: https://github.com/withfig/autocomplete
 
 The Withfig repository in-particular sets a good example of efficient workflow. The repo has a different branch for each user(a staging branch). This is effective as it allows the user to work on their version of the project without any interruptions or clashes with code. Once the user has completed what they want to do and has thoroughly tested the code, they can then upload to the main project master branch. With my repository, if I'm working with other people I think this is a really good idea and will look to do this going forward. And with my repository, I've learnt that I should only push things to the master repository that have been thoroughly tested and don't contain errors. This is something I will keep in mind for the future. If my work contains any errors, this should be kept in the staging branch until the issue(s) are resolved.
 
-The repository makes good use of network insights and allows the ability to see how much contribution everyone is making in the group through the contributors and commits pages. If I'm working in a team this games me a very fair idea on everyone's input to the project. 
+The repository makes good use of network insights and allows the ability to see how much contribution everyone is making in the group through the contributors and commits pages. If I'm working in a team this games me a very fair idea on everyone's input to the project.
