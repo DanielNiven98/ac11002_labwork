@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Overpass:ital,wght@0,100;0,200;0,600;0,700;1,200&display=swap');
+
+.paper{
+  background-color: #F2F6DF;
+  max-width: 960px;
+  margin: 40px auto 10px auto;
+  padding: 20px;
+  border-width: 4px;
+  border-style: dotted;
+  border-color: #3EB489;
+}
+
+body{
+  background-color: #3DA5D9;
+}
+
+h1,h2,h3{
+  font-family: 'Overpass', serif;
+  color: #E15634;
+}
+
+*{
+  font-family: 'Chivo', san-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+  font-weight: 900;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+header{
+  border-bottom-color: #3DA5D9;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+}
+
+section{
+  background-color: #DDEAD7;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+h3{
+  font-size: 25px;
+  text-align: center;
+}
+
+.Dish-title{
+  text-align: center;
+  font-weight: 400;
+  margin:0;
+}
+
+.Dish-description{
+  text-align: center;
+  font-weight: 300;
+  margin:0;
+}
+
+.Dish-price{
+  text-align: center;
+  font-weight: 700;
+  margin:0;
+}
+
+.Dish{
+  margin-bottom: 20px;
+}
