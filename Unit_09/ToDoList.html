@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="toDo.css">
+
+  </head>
+    <body class="bg-info">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">ToDo TaDa!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor03">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">All Items</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Incomplete Items</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Complete Items</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main>
+        <div class="container mt-4">
+          <img id ="ThumbsUp" src="tu.png" alt="">
+          <h1 class="text-dark h5">Things to Do:</h1>
+          <div class="row" id="toDoContainer" onclick="TakeItemsOffList();">
+
+          </div>
+          <h1 class="text-dark h5">Completed Items:</h1>
+          <div class="row" id="completedContainer">
+            </div>
+          </div>
+
+        <div class="container mt-4">
+          <h1 class="text-dark h5">Add a To Do</h1>
+          <div class="row">
+            <div class="col-md-12">
+                <input type="text" class="form-control" id="newToDoItem" placeholder="Type text here">
+                <button id="form-submit-button" type="submit" class="btn btn-success mt-3" onclick="saveItem()">Save Item</button>
+              <!-- <button class="btn btn-success mt-3" onclick="deleteAllValues();">Delete all values from to do list</button> -->
+              <button class="btn btn-success mt-3" onclick="TakeItemsOffList();">Take items off of list</button>
+            </div>
+          </div>
+        </div>
+
+      </main>
+      <script type="text/javascript" src="scripts.js"></script>
+
+      <script type="text/javascript">
+        window.onload = updateToDoList();
+      </script>
+  </body>
+</html>
